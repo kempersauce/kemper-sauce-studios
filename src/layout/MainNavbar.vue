@@ -15,7 +15,7 @@
                 </nav-link>
             </drop-down>
             <li class="nav-item">
-                <a class="nav-link" href="/about#/about">
+                <a class="nav-link" href="/#/about">
                     <p>About Us</p>
                 </a>
             </li>
