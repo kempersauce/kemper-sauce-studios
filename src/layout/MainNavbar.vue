@@ -25,30 +25,9 @@
                     <i class="now-ui-icons design_bullet-list-67"></i> Documentation
                 </a>
             </drop-down>
-            <drop-down tag="li" title="sections" icon="now-ui-icons files_paper" class="nav-item">
-                <nav-link class="dropdown-item" to="/sections#headers">
-                    <i class="now-ui-icons shopping_box"></i> Headers
-                </nav-link>
-                <nav-link class="dropdown-item" to="/sections#features">
-                    <i class="now-ui-icons ui-2_settings-90"></i> Features
-                </nav-link>
-                <nav-link class="dropdown-item" to="/sections#blogs">
-                    <i class="now-ui-icons text_align-left"></i> Blogs
-                </nav-link>
-                <nav-link class="dropdown-item" to="/sections#teams">
-                    <i class="now-ui-icons sport_user-run"></i> Teams
-                </nav-link>
+            <drop-down tag="li" title="projects" icon="now-ui-icons files_paper" class="nav-item">
                 <nav-link class="dropdown-item" to="/sections#projects">
-                    <i class="now-ui-icons education_paper"></i> Projects
-                </nav-link>
-                <nav-link class="dropdown-item" to="/sections#pricing">
-                    <i class="now-ui-icons business_money-coins"></i> Pricing
-                </nav-link>
-                <nav-link class="dropdown-item" to="/sections#testimonials">
-                    <i class="now-ui-icons ui-2_chat-round"></i> Testimonials
-                </nav-link>
-                <nav-link class="dropdown-item" to="/sections#contactus">
-                    <i class="now-ui-icons tech_mobile"></i> Contact Us
+                    <i class="now-ui-icons shopping_box"></i> Arcade of Light
                 </nav-link>
             </drop-down>
 
