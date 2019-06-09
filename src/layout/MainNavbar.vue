@@ -5,16 +5,8 @@
             menu-classes="ml-auto">
         <template slot-scope="{toggle, isToggled}">
                 <router-link v-popover:popover1 class="navbar-brand" to="/presentation">
-                    Now Ui Kit Pro
+                    Kemper Sauce Studios
                 </router-link>
-                <el-popover
-                        ref="popover1"
-                        popper-class="popover"
-                        placement="bottom"
-                        width="200"
-                        trigger="hover">
-                    <div class="popover-body">Designed by Invision. Coded by Creative Tim</div>
-                </el-popover>
         </template>
         <template slot="navbar-menu">
             <drop-down tag="li" title="Components" icon="now-ui-icons design_app" class="nav-item">
