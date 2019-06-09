@@ -8,11 +8,11 @@
             </div>
             <div class="rellax-header rellax-header-buildings" data-rellax-speed="0">
                 <parallax class="page-header-image page-header-city"
-                     style="background-image: url('img/presentation-page/nuk-pro-buildings.png')">
+                     style="background-image: url('img/ks/render-crowd.png')">
                 </parallax>
             </div>
             <div class="rellax-text-container rellax-text">
-                <h1 class="h1-seo" data-rellax-speed="-2" style="font-size: 6em; letter-spacing: -8px;">Kemper Sauce Studios</h1>
+                <h1 class="h1-seo" data-rellax-speed="-2" style="font-size: 6em; letter-spacing: 10px;">Kemper Sauce Studios</h1>
             </div>
         </div>
     </div>
