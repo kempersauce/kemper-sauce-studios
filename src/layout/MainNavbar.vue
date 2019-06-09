@@ -9,9 +9,9 @@
                 </router-link>
         </template>
         <template slot="navbar-menu">
-            <drop-down tag="li" title="projects" icon="now-ui-icons files_paper" class="nav-item">
+            <drop-down tag="li" title="projects" class="nav-item">
                 <nav-link class="dropdown-item" to="/sections#projects">
-                    <i class="now-ui-icons shopping_box"></i> Arcade of Light
+                    Arcade of Light
                 </nav-link>
             </drop-down>
             <li class="nav-item">
