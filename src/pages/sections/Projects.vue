@@ -11,14 +11,14 @@
                 <div class="row">
                     <div class="col-md-12 px-0">
                         <card type="background" class="card-background-product card-no-shadow"
-                              style="background-image: url('img/project1.jpg')">
+                              style="background-image: url('img/ks/led-strips.gif')">
 
                             <h6 class="category">Blink 2019</h6>
                             <h3 class="card-title">
                                 Arcade Of Light
                             </h3>
                             <p class="card-description">
-                                Coming Soon to a Cincinnati near you
+                                Coming Soon to a Cincinnati near You!
                             </p>
                         </card>
                     </div>
