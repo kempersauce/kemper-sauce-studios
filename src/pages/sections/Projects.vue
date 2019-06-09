@@ -18,7 +18,7 @@
                                 Arcade Of Light
                             </h3>
                             <p class="card-description">
-                                Coming Soon to a Cincinnati near You!
+                                Coming Soon to a Cincinnati near you!
                             </p>
                         </card>
                     </div>
