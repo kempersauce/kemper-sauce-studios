@@ -1,6 +1,6 @@
 <template>
     <div class="wrapper">
-        <div class="page-header page-header-small">
+        <div class="page-header">
             <parallax class="page-header-image"
                  style="background-image: url('img/ks/group-photo.jpg')">
             </parallax>
