@@ -567,15 +567,20 @@
             letter-spacing: -10px;
             text-align: center;
             background: #ffedea;
-            background: -moz-linear-gradient(top, #FFFFFF 35%, #49cfb9 100%);
-            background: -webkit-linear-gradient(top, #FFFFFF 35%, #49cfb9 100%);
-            background: linear-gradient(to bottom, #FFFFFF 35%, #49cfb9 100%);
+            background: -moz-linear-gradient(top, #fafafa 35%, #dfdcdc 100%);
+            background: -webkit-linear-gradient(top, #fafafa 35%, #dfdcdc 100%);
+            background: linear-gradient(to bottom, #fafafa 35%, #dfdcdc 100%);
             -webkit-background-clip: text !important;
-            -webkit-text-fill-color: transparent;
+            // -webkit-text-fill-color: transparent;
             @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
                 background: transparent;
                 color: white;
             }
+            text-shadow:
+                -1px -1px 0 #000,
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                1px 1px 0 #000;
         }
 
         .pro{
@@ -620,7 +625,7 @@
     }
     .rellax-header-sky{
         z-index: 0;
-        height: 50%;
+        height: 100%;
     }
     .rellax-header-buildings{
         z-index: 2;

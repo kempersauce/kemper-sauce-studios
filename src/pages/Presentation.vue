@@ -3,12 +3,7 @@
         <div class="page-header clear-filter">
             <div class="rellax-header rellax-header-sky">
                 <parallax class="page-header-image"
-                         style="background-image: url('img/ks/burger.jpg')">
-                </parallax>
-            </div>
-            <div class="rellax-header rellax-header-buildings" data-rellax-speed="0">
-                <parallax class="page-header-image page-header-city"
-                     style="background-image: url('img/ks/render-crowd.png')">
+                         style="background-image: url('img/ks/robby-jon-werkin.gif')">
                 </parallax>
             </div>
             <div class="rellax-text-container rellax-text">
