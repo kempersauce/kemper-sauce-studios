@@ -4,20 +4,20 @@
             :color-on-scroll="colorOnScroll"
             menu-classes="ml-auto">
         <template slot-scope="{toggle, isToggled}">
-                <router-link v-popover:popover1 class="navbar-brand" to="/presentation">
+                <router-link v-popover:popover1 class="navbar-brand" to="/">
                     Kemper Sauce Studios
                 </router-link>
         </template>
         <template slot="navbar-menu">
             <drop-down tag="li" title="projects" class="nav-item">
-                <nav-link class="dropdown-item" to="/sections#projects">
+                <router-link class="dropdown-item" to="/projects/arcadeoflight">
                     Arcade of Light
-                </nav-link>
+                </router-link>
             </drop-down>
             <li class="nav-item">
-                <a class="nav-link" href="/#/about">
+                <router-link class="nav-link" to="/about">
                     <p>About Us</p>
-                </a>
+                </router-link>
             </li>
 
         </template>
