@@ -19,6 +19,11 @@
                     <p>About Us</p>
                 </a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://kempersauce.com/">
+                    <p>Dev Blog</p>
+                </a>
+            </li>
 
         </template>
     </navbar>
