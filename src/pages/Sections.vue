@@ -5,7 +5,7 @@
     </div>
 </template>
 <script>
-  import ProjectsSection from './sections/Projects'
+  import ProjectsSection from './example-pages/Projects'
   export default {
     name: 'sections',
     bodyClass: 'sections-page',

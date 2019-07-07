@@ -10,13 +10,23 @@
         </template>
         <template slot="navbar-menu">
             <drop-down tag="li" title="projects" class="nav-item">
-                <router-link class="dropdown-item" to="/projects/arcadeoflight">
+                <router-link class="dropdown-item" to="/projects">
                     Arcade of Light
                 </router-link>
             </drop-down>
             <li class="nav-item">
                 <router-link class="nav-link" to="/about">
                     <p>About Us</p>
+                </router-link>
+            </li>
+            <li class="nav-item">
+                <router-link class="nav-link" to="/blog">
+                    <p>Blog</p>
+                </router-link>
+            </li>
+            <li class="nav-item">
+                <router-link class="nav-link" to="/contact">
+                    <p>Contact Us</p>
                 </router-link>
             </li>
 

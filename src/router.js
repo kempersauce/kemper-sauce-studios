@@ -5,7 +5,8 @@ import About from "./pages/example-pages/AboutUs.vue";
 import BlogPost from "./pages/example-pages/BlogPost.vue";
 import BlogPosts from "./pages/example-pages/BlogPosts.vue";
 import Sections from "./pages/Sections.vue";
-import Projects from './pages/sections/Projects.vue';
+import Projects from "./pages/example-pages/Projects.vue";
+import ContactUs from "./pages/example-pages/ContactUs.vue";
 
 const router = [
     {
@@ -21,29 +22,20 @@ const router = [
       props: {header: {colorOnScroll: 450}}
     },
     {
-      path: "/blog-post",
-      name: "blog-post",
-      components: {default: BlogPost, header: MainNavbar, footer: MainFooter},
+      path: "/blog",
+      name: "blog",
+      components: {default: BlogPosts, header: MainNavbar, footer: MainFooter},
       props: {header: {colorOnScroll: 450}}
     },
     {
-      path: "/blog-posts",
-      name: "blog-posts",
-      components: {default: BlogPosts, header: MainNavbar},
+      path: "/contact",
+      name: "contact",
+      components: {default: ContactUs, header: MainNavbar, footer: MainFooter},
       props: {header: {colorOnScroll: 450}}
     },
     {
-      path: "/sections",
-      name: "sections",
-      components: {default: Sections, header: MainNavbar, footer: MainFooter},
-      props: {
-        footer: {backgroundColor: 'gray'},
-        header: {colorOnScroll: 0}
-      }
-    },
-    {
-      path: '/projects/arcadeoflight',
-      name: 'arcadeoflight',
+      path: '/projects',
+      name: 'projects',
       components: {default: Projects, header: MainNavbar, footer: MainFooter}
     }
   ]
